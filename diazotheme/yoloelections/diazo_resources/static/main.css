@@ -1,0 +1,91 @@
+/* Stylesheet for the 'ICustomTheme' Plone browser layer */
+
+#visual-portal-wrapper { max-width: 64em; margin: 0 auto;}
+
+/*
+a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link, dl.portlet a:visited {
+color: red;
+}
+#portal-globalnav .selected a, #portal-globalnav a:hover {
+background-color: red;
+}
+*/
+
+#portal-logo {
+    width: 40%;
+    margin: 1.875em 0 1.375em 2.5%;
+}
+#portal-logo img {
+    max-width: 100%;
+}
+
+#portal-searchbox {
+    margin: 1.2em 5% 1.2em 0;
+}
+
+#portal-globalnav {
+    background: url("ribbon_web.png") no-repeat scroll left top #000058;
+    color: #E1AB45;
+    padding-top: 1em;
+    margin: 0;
+}
+#portal-globalnav li a {
+  background-color: transparent;
+  color: #e1ab45;
+  border-right: none;
+  padding: 0.5em 0 0.75em;
+}
+#portal-globalnav .selected a, #portal-globalnav a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+#portal-globalnav li {
+    position: relative;
+    display: inline-block;
+    width: 19.5%;
+    text-align: center;
+}
+#portal-globalnav li.seal > img {
+    left: -12.5%;
+    margin-top: -55%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+#portal-column-content {
+    background: url(bridge.jpg) no-repeat;
+}
+
+#cwrapper {
+    margin: 5em 2em 1em;
+    padding: 2em;
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.95)
+}
+
+@media handheld, screen and (max-width: 600px) {
+    #portal-globalnav li.seal {
+        display: none;
+    }
+    #portal-globalnav li {
+        width: 24%;
+    }
+    #portal-logo {
+        width: 80%;
+    }
+}
+@media handheld, screen and (max-width: 480px) {
+    #portal-globalnav li {
+        width: 40%;
+    }
+    #portal-column-content {
+        background: #fff;
+    }
+    #cwrapper {
+        border: none;
+        background-color: none;
+        padding: 0;
+        margin: 0;
+    }
+}

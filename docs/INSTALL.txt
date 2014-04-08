@@ -1,0 +1,17 @@
+diazotheme.yoloelections Installation
+-------------------------------------
+
+To install diazotheme.yoloelections using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``diazotheme.yoloelections`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        diazotheme.yoloelections
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
