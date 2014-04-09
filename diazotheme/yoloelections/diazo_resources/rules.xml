@@ -42,8 +42,20 @@
         <replace css:theme="#portaltab-3" content="id('portal-globalnav')/li[3]" />
         <replace css:theme="#portaltab-4" content="id('portal-globalnav')/li[4]" />
 
+        <drop css:content="#portal-breadcrumbs" />
+        <replace css:theme="#viewlet-above-content" css:content="#viewlet-above-content" />
+        <replace css:theme="#kssPortalMessage" css:content="#kssPortalMessage" />
         <replace css:theme="#content" css:content="#content" />
+        <replace css:theme="#viewlet-below-content" css:content="#viewlet-below-content" />
 
+        <replace css:theme-children="#portal-column-two .colwrapper" css:content-children="#portal-column-two" />
+        <drop css:theme="#portal-column-two" css:if-not-content="#portal-column-two" />
+
+        <replace css:theme="#portal-siteactions" css:content="#portal-siteactions" />
+
+        <replace css:theme-children="#bottom-nav ul" css:content-children="#portal-globalnav" />
+
+        <copy attributes="class" css:theme="#portal-column-content" css:content="#portal-column-content" />
 
     </rules>
 

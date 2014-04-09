@@ -53,15 +53,51 @@ background-color: red;
     z-index: 5;
 }
 
-#portal-column-content {
-    background: url(bridge.jpg) no-repeat;
+#portal-columns {
+    background: url("bridge.jpg") no-repeat scroll 0 0 #939CAF;
+    margin-left: 1.125%;
+    width: 97.75%;
 }
 
-#cwrapper {
+.colwrapper {
     margin: 5em 2em 1em;
     padding: 2em;
     border: 1px solid #000;
     background-color: rgba(255, 255, 255, 0.95)
+}
+
+#bottom-nav ul {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 1em 2em;
+    padding: 0 2em;
+    line-height: 2.5em;
+}
+#bottom-nav ul li a {
+    background-color: #000;
+    color: #fff !important;
+    padding: 0.5em 2em 0.5em 0.5em;
+}
+#bottom-nav ul li.selected a,
+#bottom-nav ul li a:hover {
+    background-color: #ccc;
+    color: #000 !important;
+}
+
+#portal-footer {
+    background-color: #000;
+    color: #FFF;
+    margin: 0 0 1em;
+    padding: 2em;
+}
+#portal-footer a {
+    color: #fff !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arvo, serif;
+    letter-spacing: 0;
 }
 
 @media handheld, screen and (max-width: 600px) {
@@ -79,7 +115,7 @@ background-color: red;
     #portal-globalnav li {
         width: 40%;
     }
-    #portal-column-content {
+    #portal-columns {
         background: #fff;
     }
     #cwrapper {
