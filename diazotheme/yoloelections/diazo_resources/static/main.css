@@ -42,7 +42,7 @@ background-color: red;
 #portal-globalnav li {
     position: relative;
     display: inline-block;
-    width: 19.5%;
+    width: 18%;
     text-align: center;
 }
 #portal-globalnav li.seal > img {
@@ -51,6 +51,17 @@ background-color: red;
     max-width: 100%;
     position: absolute;
     z-index: 5;
+}
+li#navicon {
+    width: 4%;
+    cursor: pointer;
+    position: relative;
+}
+#navicon span {
+    font-size: 250%;
+    left: 0.4em;
+    position: absolute;
+    top: -0.7em;
 }
 
 #portal-columns {
@@ -94,31 +105,43 @@ background-color: red;
     color: #fff !important;
 }
 
+#portal-column-one {
+    background-color: #fff;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Arvo, serif;
     letter-spacing: 0;
 }
 
+
+
 @media handheld, screen and (max-width: 600px) {
     #portal-globalnav li.seal {
         display: none;
     }
     #portal-globalnav li {
-        width: 24%;
+        width: 15%;
     }
     #portal-logo {
         width: 80%;
     }
 }
 @media handheld, screen and (max-width: 480px) {
+    #portal-logo {
+        margin-top: 0;
+    }
     #portal-globalnav li {
         width: 40%;
+    }
+    li#navicon {
+        display: none;
     }
     #portal-columns {
         background: #fff;
     }
-    #cwrapper {
+    .colwrapper {
         border: none;
         background-color: none;
         padding: 0;
