@@ -126,11 +126,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     #portal-logo {
         width: 80%;
+        display: block;
     }
 }
 @media handheld, screen and (max-width: 480px) {
     #portal-logo {
         margin-top: 0;
+        display: block
     }
     #portal-globalnav li {
         width: 40%;
