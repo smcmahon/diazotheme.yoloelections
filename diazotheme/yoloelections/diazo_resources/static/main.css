@@ -22,6 +22,10 @@ background-color: red;
 #portal-searchbox {
     margin: 1.2em 5% 1.2em 0;
 }
+#LSResult {
+    margin: -0.2em 0 0 -7em;
+    z-index: 6;
+}
 
 #portal-globalnav {
     background: url("ribbon_web.png") no-repeat scroll left top #000058;
@@ -57,11 +61,12 @@ li#navicon {
     cursor: pointer;
     position: relative;
 }
-#navicon span {
+ul#portal-globalnav li#navicon a {
     font-size: 250%;
     left: 0.4em;
     position: absolute;
-    top: -0.7em;
+    top: 2.2em;
+    min-width: 0;
 }
 
 #portal-columns {
@@ -103,10 +108,6 @@ li#navicon {
 }
 #portal-footer a {
     color: #fff !important;
-}
-
-#portal-column-one {
-    background-color: #fff;
 }
 
 

@@ -50,16 +50,16 @@
 
         <rules css:if-content="#portal-column-two">
             <replace css:theme-children="#portal-column-content.width-12 .colwrapper" css:content-children="#portal-column-content" />
-            <drop css:theme-children="#portal-column-content.width-16" />
+            <drop css:theme="#portal-column-content.width-16" />
             <replace css:theme-children="#portal-column-two .colwrapper" css:content-children="#portal-column-two" />
         </rules>
         <rules css:if-not-content="#portal-column-two">
             <replace css:theme-children="#portal-column-content.width-16 .colwrapper" css:content-children="#portal-column-content" />
-            <drop css:theme-children="#portal-column-content.width-12" />
+            <drop css:theme="#portal-column-content.width-12" />
             <drop css:theme="#portal-column-two" css:if-not-content="#portal-column-two" />
         </rules>
 
-        <replace css:theme-children="#portal-column-one" css:content-children="#portal-column-one" />
+        <replace css:theme-children="#portal-column-one .colwrapper" css:content-children="#portal-column-one" />
 
 
     </rules>

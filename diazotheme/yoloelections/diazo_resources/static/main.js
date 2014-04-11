@@ -11,8 +11,8 @@ jQuery(function ($) {
             $('#portal-column-content').attr('class', 'cell width-16 position-0');
             $('#portal-column-one').hide();
         } else {
-            $('#portal-column-content').attr('class', 'cell width-12 position-5');
-            $('#portal-column-one').show();
+            $('#portal-column-content').attr('class', 'cell width-12 position-4');
+            $('#portal-column-one').animate({width: 'show'});
         }
         nav_viz = ! nav_viz;
     });
