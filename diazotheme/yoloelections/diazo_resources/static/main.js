@@ -6,9 +6,10 @@
 jQuery(function ($) {
     var nav_viz = false;
 
-    $('#navicon').click(function () {
+    $('#navicon').click(function (event) {
         var have_col2 = $('#portal-column-two').length > 0;
 
+        event.preventDefault();
         if (nav_viz) {
             $('#portal-column-one').hide();
             if (have_col2) {
@@ -22,8 +23,9 @@ jQuery(function ($) {
             } else {
                 $('#portal-column-content').attr('class', 'cell width-12 position-4');
             }
-            $('#portal-column-one').animate({width:'toggle'});
+            $('#portal-column-one').animate({width:'show'});
         }
         nav_viz = ! nav_viz;
+
     });
 });
