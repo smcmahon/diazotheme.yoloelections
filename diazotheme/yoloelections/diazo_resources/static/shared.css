@@ -1,3 +1,17 @@
+/*
+.userrole-authenticated #portal-column-content {
+    background-color: #939CAF;
+}
+.userrole-authenticated #portal-breadcrumbs {
+    background-color: #fff;
+}
+#portal-breadcrumbs {
+    margin-left: 0;
+    padding-left: 0.25em;
+}
+*/
+
+/* returns */
 .outer {
   border:  1px solid #000033;
 }
@@ -192,7 +206,7 @@ table.return td.mind {
 
 /* cover styles */
 
-body.portaltype-collective-cover-content div.colwrapper {
+body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     background-color: transparent;
     border: none;
     margin: 4em 2em;
