@@ -292,7 +292,8 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     font-size: 1em;
     font-weight: normal;
 }
-.tile .list-item {
+.tile .list-item,
+.tile .collection-item, {
     margin-bottom: 0.5em;
 }
 
