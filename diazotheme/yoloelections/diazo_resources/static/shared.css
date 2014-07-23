@@ -213,6 +213,9 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     padding: 0;
 }
 
+.tile img {
+    max-width: 100%;
+}
 #content .row + .row,
 .tile + .tile {
     margin-top: 2em;

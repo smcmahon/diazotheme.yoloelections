@@ -11,6 +11,10 @@ background-color: red;
 }
 */
 
+img {
+    max-width: 100%;
+}
+
 #portal-logo {
     width: 40%;
     margin: 1.875em 0 1.375em 2.5%;
