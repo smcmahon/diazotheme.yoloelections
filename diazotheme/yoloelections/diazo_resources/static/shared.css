@@ -243,13 +243,20 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     padding-left: 3%;
     padding-right: 3%;
 }
+.tile-header,
+.tile-footer,
 .tile-default .tile-content > h2,
 .tile-edge .tile-content > h2 {
     background-color: #000058;
     color: #e1ab45;
-    font: 100% Arial,FreeSans,sans-serif;
     padding: 1em;
 }
+.tile-header {
+    margin-bottom: 0.5em;
+    font-size: 80%;
+}
+.tile-header > *,
+.tile-footer > *,
 .tile-default h2 a,
 .tile-edge h2 a {
     color: #e1ab45 !important;
@@ -275,11 +282,18 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
 .tile-dark a {
     color: #fff !important;
 }
-.tile-dark h2 {
+.tile h2 {
     font-size: 1.5em;
 }
-.tile-dark h3 {
+.tile h3 {
     font-size: 1em;
+}
+.tile h4 {
+    font-size: 1em;
+    font-weight: normal;
+}
+.tile .list-item {
+    margin-bottom: 0.5em;
 }
 
 /* end cover styles */
