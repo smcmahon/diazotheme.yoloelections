@@ -26,7 +26,7 @@
         <merge attributes="class" css:theme="body" css:content="body" />
 
         <!-- Copy script tags from Plone head to end of body -->
-        <after css:theme="#visual-portal-wrapper" css:content="html head script" />
+        <!-- after css:theme="#visual-portal-wrapper" css:content="html head script" / -->
 
         <!-- Move inline scripts in content to end of body -->
 	<!--
