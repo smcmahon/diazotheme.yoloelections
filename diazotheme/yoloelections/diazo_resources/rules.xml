@@ -29,8 +29,10 @@
         <after css:theme="#visual-portal-wrapper" css:content="html head script" />
 
         <!-- Move inline scripts in content to end of body -->
+	<!--
         <drop css:content="body script" />
         <after css:theme-children="body" css:content="html body script" method="raw" />
+	-->
 
         <replace css:theme="#portal-searchbox" css:content="#portal-searchbox" />
         <drop css:content=".searchSection" />
