@@ -18,21 +18,12 @@
         <!-- Copy base tag from Plone -->
         <before css:theme-children="html head" css:content="html head base" />
 
-        <!-- Copy link, style, meta tags from Plone head -->
+        <!-- Copy link, style, script, meta tags from Plone head -->
         <replace css:theme-children="#ploneheadertags"
-               content="/html/head/link | /html/head/style | /html/head/meta" />
+               content="/html/head/link | /html/head/style | /html/head/meta | /html/head/script" />
 
         <!-- merge classes from Plone body with theme body -->
         <merge attributes="class" css:theme="body" css:content="body" />
-
-        <!-- Copy script tags from Plone head to end of body -->
-        <!-- after css:theme="#visual-portal-wrapper" css:content="html head script" / -->
-
-        <!-- Move inline scripts in content to end of body -->
-	<!--
-        <drop css:content="body script" />
-        <after css:theme-children="body" css:content="html body script" method="raw" />
-	-->
 
         <replace css:theme="#portal-searchbox" css:content="#portal-searchbox" />
         <drop css:content=".searchSection" />
