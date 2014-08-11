@@ -153,6 +153,23 @@ dl.portlet {
         border: none;
         background-color: none;
         padding: 0;
-        margin: 0;
+        margin: 0 !important;
+    }
+    #LSResult {
+	display: none !important;
+    }
+
+    .cell {
+	float: none;
+	left: 0 !important;
+	margin-left: 0 !important;
+	width: 98.875% !important;
+    }
+    .tile {
+	margin-top: 0.5em;
+    }
+
+    .pfg-form .formControls input {
+        font-size: 200% !important;
     }
 }

@@ -204,6 +204,14 @@ table.return td.mind {
     text-align: left;
 }
 
+input {
+    max-width: 97%;
+}
+
+.pfg-form .formControls input {
+    font-size: 200%;
+}
+
 /* cover styles */
 
 body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
@@ -253,6 +261,7 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     background-color: #000058;
     color: #e1ab45;
     padding: 1em;
+    margin-bottom: 0.5em;
 }
 .tile-header {
     margin-bottom: 0.5em;
@@ -298,6 +307,10 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
 .tile .list-item,
 .tile .collection-item {
     margin-bottom: 0.5em;
+}
+
+.cover-pfg-tile div.formControls {
+    text-align: center;
 }
 
 /* end cover styles */
