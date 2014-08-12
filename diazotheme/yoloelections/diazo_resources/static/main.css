@@ -18,11 +18,17 @@ img {
 #portal-logo {
     width: 40%;
     margin: 1.875em 0 1.375em 2.5%;
+    float: left;
 }
 #portal-logo img {
     max-width: 100%;
 }
-
+#recorder_banner {
+    float: right;
+    margin-right: 2%;
+    margin-top: -0.2em;
+    max-width: 40%;
+}
 #portal-searchbox {
     margin: 1.2em 5% 1.2em 0;
 }
@@ -135,10 +141,18 @@ dl.portlet {
         display: none;
     }
     #portal-logo {
-        width: 80%;
+        width: 95%;
         margin-top: 0;
-        display: block
+        display: block;
+        margin-bottom: 0.5em;
     }
+    #recorder_banner {
+        max-width: 80%;
+        float: none;
+        margin-left: 10%;
+        margin-bottom: 0.5em;
+    }
+
     #portal-globalnav li {
         width: 45%;
         font-size: 110%;
@@ -172,4 +186,5 @@ dl.portlet {
     .pfg-form .formControls input {
         font-size: 200% !important;
     }
+
 }

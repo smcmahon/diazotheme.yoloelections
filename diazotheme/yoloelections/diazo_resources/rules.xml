@@ -54,6 +54,7 @@
 
         <replace css:theme-children="#portal-column-one .colwrapper" css:content-children="#portal-column-one" />
 
+        <replace css:theme-children="#portal-footer" css:content-children="#portal-footer" />
 
     </rules>
 
