@@ -16,8 +16,8 @@ img {
 }
 
 #portal-logo {
-    width: 40%;
-    margin: 1.875em 0 1.375em 2.5%;
+    width: 37%;
+    margin: 2.2em 0px 1.375em 2%;
     float: left;
 }
 #portal-logo img {
@@ -25,12 +25,13 @@ img {
 }
 #recorder_banner {
     float: right;
-    margin-right: 2%;
+    margin-right: 2.5%;
     margin-top: -0.2em;
-    max-width: 40%;
+    max-width: 37%;
+    clear: right;
 }
 #portal-searchbox {
-    margin: 1.2em 5% 1.2em 0;
+    margin: 1.2em 2.5% 1.2em 0;
 }
 #LSResult {
     margin: -0.2em 0 0 -7em;
