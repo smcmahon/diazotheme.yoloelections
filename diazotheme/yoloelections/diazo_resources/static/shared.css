@@ -212,6 +212,18 @@ input {
     font-size: 200%;
 }
 
+#content-core {
+    margin-top: 1em;
+}
+
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+    margin-bottom: 0.5em;
+}
+
+.tileItem:nth-child(even) {
+    background-color: rgba(204,204,204,0.3);
+}
+
 /* cover styles */
 
 body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
