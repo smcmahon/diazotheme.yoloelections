@@ -188,4 +188,15 @@ dl.portlet {
         font-size: 200% !important;
     }
 
+    #bottom-nav ul {
+        margin: 1em 0;
+        padding: 0 2em;
+        line-height: 2.5em;
+    }
+    #bottom-nav ul li {
+        display: block;
+    }
+    #bottom-nav ul li a {
+        display: block;
+    }
 }
