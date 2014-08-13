@@ -25,13 +25,13 @@ img {
 }
 #recorder_banner {
     float: right;
-    margin-right: 2.5%;
+    margin-right: 6.5%;
     margin-top: -0.2em;
     max-width: 37%;
     clear: right;
 }
 #portal-searchbox {
-    margin: 1.2em 2.5% 1.2em 0;
+    margin: 1.2em 6.5% 1.2em 0;
 }
 #LSResult {
     margin: -0.2em 0 0 -7em;
