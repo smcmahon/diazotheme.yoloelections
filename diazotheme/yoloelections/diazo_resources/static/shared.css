@@ -292,7 +292,7 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
 .tile a.imag img {
     float: none;
     margin: 0 0 0.5em 0;
-    width: 100%;
+    max-width: 100%;
 }
 .tile-dark {
     background: none repeat scroll 0 0 #000058;
