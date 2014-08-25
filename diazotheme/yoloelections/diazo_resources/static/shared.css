@@ -322,3 +322,8 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
 }
 
 /* end cover styles */
+
+/* tiny resource broser fix */
+#plonebrowser #footer {
+    position: relative;
+}
