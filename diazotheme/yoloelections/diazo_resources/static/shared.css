@@ -285,9 +285,9 @@ body.portaltype-collective-cover-content #portal-column-content div.colwrapper {
     border: none !important;
     padding: 0;
 }
-.tile a.imag img {
+div.tile-default a.imag img {
     float: none;
-    margin: -1em 0 0.5em 0;
+    margin: -0.75em 0 0.5em 0;
     max-width: 100%;
 }
 .tile-dark {
