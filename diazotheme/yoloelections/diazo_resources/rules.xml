@@ -19,7 +19,7 @@
         <before css:theme-children="html head" css:content="html head base" />
 
         <!-- Copy link, style, script, meta tags from Plone head -->
-        <replace css:theme-children="#ploneheadertags"
+        <replace css:theme="#ploneheadertags"
                content="/html/head/link | /html/head/style | /html/head/meta | /html/head/script" />
 
         <!-- merge classes from Plone body with theme body -->
