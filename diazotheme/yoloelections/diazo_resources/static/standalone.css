@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* *:link, *:visited {
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    color: Black;
+    font: 100% Arial,FreeSans,sans-serif;
+}
+
+div.row {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+div.width-full {
+    width: 97.75%;
+}
+div.position-0 {
+    margin-left: -98.875%;
+}
+div.cell {
+    float: left;
+    left: 100%;
+    position: relative;
+}
+div.position-0 {
+    margin-left: -98.875%;
+}
+div.width-16 {
+    width: 97.75%;
+}
+#portal-header {
+    position: relative;
+    z-index: 2;
+}
+#portal-logo {
+    display: inline-block;
+}
+.hiddenStructure {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: block;
+    height: 0.1em;
+    margin: -0.1em 0 0 -0.1em;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+#portal-searchbox {
+    clear: right;
+    float: right;
+    font-size: 80%;
+    margin: 1.2em 0;
+    text-align: left;
+}
+#portal-searchbox form {
+    white-space: nowrap;
+}
+#searchGadget {
+    width: 13em;
+}
+input.searchField {
+    -moz-appearance: searchfield;
+}
+input {
+    max-width: 97%;
+}
+input {
+    font-family: "Lucida Grande",Arial,FreeSans;
+}
+#portal-globalnav {
+    clear: both;
+}
+
+
+#bottom-nav,
+div#portal-column-content.cell.width-12.position-0,
+#portal-column-two {
+    display: none !important;
+}
+
+#portal-siteactions {
+    clear: left;
+    font-size: 85%;
+    padding-bottom: 2em;
+    text-align: center;
+}
+#portal-siteactions li {
+    margin-right: 0.5em;
+    display: inline;
+}
+
+#navicon a {
+    display: none;
+}

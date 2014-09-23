@@ -9,6 +9,8 @@
 
         <theme href="index.html" />
 
+        <drop css:theme=".standalone" />
+
         <!-- Replace title with Plone's page title  -->
         <replace css:theme="html head title" css:content="html head title" />
 

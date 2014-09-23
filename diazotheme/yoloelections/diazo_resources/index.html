@@ -3,7 +3,8 @@
 <head>
     <title>Theme template</title>
     <link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico" />
-    <link id="ploneheadertags" />
+    <link id="ploneheadertags" rel="stylesheet" type="text/css" href="static/standalone.css" />
+    <link class="standalone" rel="stylesheet" type="text/css" href="static/main.css" />
 </head>
 <body>
 <div id="visual-portal-wrapper">
@@ -17,7 +18,12 @@
       </p>
 
       <div id="portal-searchbox">
-          SEARCHBOX
+          <form action="http://www.yoloelections.org/@@search" id="livesearch0">
+              <div class="LSBox">
+              <label for="searchGadget" class="hiddenStructure">Search Site</label>
+              <input type="text" id="searchGadget" class="searchField" accesskey="4" placeholder="Search Site" title="Search Site" size="18" name="SearchableText" autocomplete="off"><input type="submit" value="Search" class="searchButton">
+              </div>
+          </form>
       </div>
 
       <a id="portal-logo" title="Site" accesskey="1" href="#"><img src="static/logo.png" alt="Site" title="Site"></a>
@@ -71,7 +77,10 @@
         <span style="display:inline-block">(530) 666-8133<br/>(800) 649-9943<br /><a href="mailto:cntyclrk@yoloelections.org">cntyclrk@yoloelections.org</a></span>
       </div>
 
-      <ul id="portal-siteactions">PORTAL SITE ACTIONS</ul>
+      <ul id="portal-siteactions"><li id="siteaction-sitemap"><a title="Site Map" accesskey="3" href="http://www.yoloelections.org/sitemap">Site Map</a></li>
+          <li id="siteaction-accessibility"><a title="Accessibility" accesskey="0" href="http://www.yoloelections.org/accessibility-info">Accessibility</a></li>
+          <li id="siteaction-contact-us"><a title="Contact" accesskey="" href="http://www.yoloelections.org/contact">Contact</a></li>
+      </ul>
     </div>
   </div>
 
