@@ -76,7 +76,9 @@ input {
 #portal-globalnav {
     clear: both;
 }
-
+#portal-globalnav li a {
+    display: inline-block;
+}
 
 #bottom-nav,
 div#portal-column-content.cell.width-12.position-0,
@@ -97,4 +99,12 @@ div#portal-column-content.cell.width-12.position-0,
 
 #navicon a {
     display: none;
+}
+
+.colwrapper {
+    text-align: center;
+}
+table.outer, table.nouter {
+    margin: 1em auto 0;
+    min-width: 50%
 }
