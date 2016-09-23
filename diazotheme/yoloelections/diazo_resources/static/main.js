@@ -83,5 +83,6 @@ jQuery(function ($) {
         }
     });
 
+    $('.pfg-form input:submit').addClass('btn btn-primary');
 
 });
