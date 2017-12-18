@@ -670,3 +670,10 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+.formid-registration-status #archetypes-fieldname-birth-year,
+.formid-registration-status #archetypes-fieldname-anor,
+.formid-registration-status #archetypes-fieldname-zip-code {
+display: inline-block;
+padding: 1em;
+clear: none;
+}
